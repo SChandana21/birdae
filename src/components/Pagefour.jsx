@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 
-import BG from "../components/ChatGPT Image Jun 17, 2026, 09_02_47 PM.png";
+import BG from "../components/birthday.png";
 
 const Pagefour = () => {
   const [opened, setOpened] = useState(false);

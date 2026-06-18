@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { useNavigate } from "react-router-dom";
 
-import BG from "../components/ChatGPT Image Jun 17, 2026, 09_02_47 PM.png";
+import BG from "../components/birthday.png";
 
 const Pagethree = () => {
   const [opened, setOpened] = useState(false);
@@ -86,7 +86,7 @@ const Pagethree = () => {
                 boxShadow: "0 10px 25px rgba(255,123,172,0.3)",
               }}
             >
-              Open
+              
             </motion.button>
           </motion.div>
         ) : (

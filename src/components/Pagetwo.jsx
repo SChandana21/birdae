@@ -2,7 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import { useNavigate } from "react-router-dom";
 
-import BG from "../components/ChatGPT Image Jun 17, 2026, 09_02_47 PM.png";
+import BG from "../components/birthday.png";
 import SummerImage from "../components/summer.png";
 import GIF from "../components/tenor.gif";
 
