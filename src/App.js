@@ -1,19 +1,18 @@
-import logo from './logo.svg';
 import './App.css';
 import ONEPAGE from './components/Onepage';
-import { BrowserRouter } from 'react-router-dom';
-import { Route, Router, Routes } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Pagetwo from './components/Pagetwo';
 import Pagethree from './components/Pagethree';
 import Pagefour from './components/Pagefour';
+
 function App() {
   return (
-     <BrowserRouter>
+    <BrowserRouter>
       <Routes>
         <Route path="/" element={<ONEPAGE />} />
         <Route path="/page-two" element={<Pagetwo />} />
-        <Route path='/pagethree' element={<Pagethree/>}/>
-        <Route path='/pagefour' element={<Pagefour/>}/>
+        <Route path="/pagethree" element={<Pagethree />} />
+        <Route path="/pagefour" element={<Pagefour />} />
       </Routes>
     </BrowserRouter>
   );
